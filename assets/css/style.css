@@ -1,7 +1,9 @@
+/* Base Style */
 * {
     margin: 0;
 }
 
+/* Header Style */
 #header {
     height: 150px;
     background-image: url('../img/pattern.png');
@@ -12,4 +14,19 @@
     width: 300px;
     margin-top: 65px;
     margin-left: 20px;
+}
+
+/* Main Style */
+#autore {
+    margin: 20px 0;
+}
+
+#autore h4,
+#autore h5 {
+    color: grey;
+}
+
+#autore a {
+    text-decoration: none;
+    color: rgb(0, 153, 255);
 }
